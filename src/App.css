@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.hero {
+  width: 100%;
+  background-image: url("./assets/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.playfair-display-font {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: #40513b;
+}
+
+.term {
+  margin: 1rem 0;
+  padding: 2rem 1rem;
+  color: #fff;
+  background-color: #815cce;
+  border-left: 1rem solid #40513b;
+  border-radius: 8px;
+  animation: show-from-left 1000ms ease-in-out;
+}
+
+@keyframes show-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
