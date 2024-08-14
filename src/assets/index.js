@@ -3,7 +3,7 @@ export { default as wedding } from "./wedding.png";
 export { default as event } from "./event.png";
 export { default as groom } from "./groom.png";
 export { default as party } from "./party.png";
-export { default as logo } from "./subtract.png";
+export { default as logo } from "./Subtract.png";
 export { default as signIn } from "./signIn.png";
 
 export { default as facebook } from "./icons/facebook.svg";
